@@ -69,7 +69,7 @@ If Health Check is enabled, the health check result must be Normal, or the websi
 
 ## Step 3: Bind an EIP to Load Balancer
 After you have configured a load balancer for your dedicated WAF instance, unbind the EIP from the origin server and then bind this EIP to the load balancer created for your WAF instance.The request traffic then goes to the dedicated WAF instance for attack detection first and then go to the origin server, ensuring the security, stability, and availability of the origin server. Click this [Link Text](https://support.huaweicloud.com/intl/en-us/usermanual-waf/waf_01_0250.html#section5) to learn how to go about that.
-## Step 3: Obtain the subnet IP addresses of all dedicated WAF instances
+## Step 4: Obtain the subnet IP addresses of all dedicated WAF instances
 
 1. Click **☰** in the upper left corner of the page and choose  
    **Web Application Firewall** under **Security & Compliance**.
@@ -82,7 +82,7 @@ After you have configured a load balancer for your dedicated WAF instance, unbin
 
 ---
 
-## Step 4: Add the subnet IP address to the ECS security group
+## Step 5: Add the subnet IP address to the ECS security group
 
 1. In the upper left corner of the page, click **☰** and choose  
    **Compute > Elastic Cloud Server**.
