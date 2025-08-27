@@ -18,7 +18,7 @@ N.B If you are using domain name, that means you must have created a DNS record 
 4. In the navigation pane on the left, click **Website Settings**.
 5. In the upper left corner of the website list, click **Add Website**.
 6. Select **Dedicated Mode** and click **Configure Now**.
-7. On the **Add Website** panel, configure basic information (see **Table 1**).
+7. On the **Add Website** panel, configure basic information .
 
 > **POC1**: Configuring basic information  
 > ![](img/POC_Add_website_WAF.png)
@@ -90,5 +90,5 @@ If Health Check is enabled, the health check result must be Normal, or the websi
 4. On the **Change Security Group** panel displayed, select a security group or create a new one, then click **OK**.
 5. Click the **security group ID** and view the details.
 6. Click the **Inbound Rules** tab and then click **Add Rule**.
-7. In the **Add Inbound Rule** dialog box, configure the parameters as shown in **Table 3**, then click **OK**.
+7. In the **Add Inbound Rule** dialog box, configure the parameters, then click **OK**.
 
