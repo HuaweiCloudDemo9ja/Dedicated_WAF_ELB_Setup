@@ -1,5 +1,5 @@
 # Dedicated_WAF_ELB_Setup
-
+This is not a substitute for the official docs, the actual documentation can be found [here](https://support.huaweicloud.com/intl/en-us/usermanual-waf/waf_01_0250.html#section0)
 # Pointing Traffic to an ECS Hosting Your Website
 
 If your origin servers are deployed on **Huawei Cloud ECSs** and not behind any ELB, perform the following steps. 
@@ -67,7 +67,8 @@ If Health Check is enabled, the health check result must be Normal, or the websi
 > **POC2**: Adding WAF instance to ELB Backen Server Group  
 ![](img/ADD_WAF_ELB.png)
 
-
+## Step 3: Bind an EIP to Load Balancer
+After you have configured a load balancer for your dedicated WAF instance, unbind the EIP from the origin server and then bind this EIP to the load balancer created for your WAF instance.The request traffic then goes to the dedicated WAF instance for attack detection first and then go to the origin server, ensuring the security, stability, and availability of the origin server. Click this [Link Text](https://support.huaweicloud.com/intl/en-us/usermanual-waf/waf_01_0250.html#section5) to learn how to go about that.
 ## Step 3: Obtain the subnet IP addresses of all dedicated WAF instances
 
 1. Click **☰** in the upper left corner of the page and choose  
@@ -91,4 +92,7 @@ If Health Check is enabled, the health check result must be Normal, or the websi
 5. Click the **security group ID** and view the details.
 6. Click the **Inbound Rules** tab and then click **Add Rule**.
 7. In the **Add Inbound Rule** dialog box, configure the parameters, then click **OK**.
+
+##
+
 
