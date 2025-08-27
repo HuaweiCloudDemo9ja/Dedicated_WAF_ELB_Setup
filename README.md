@@ -77,7 +77,7 @@ If Health Check is enabled, the health check result must be Normal, or the websi
 3. On the **Dedicated Engine** page, click the **IP address** in the **IP Address** column of the dedicated engine and copy the address.
 
 > **POC 3**: Obtaining the subnet IP address of a dedicated engine  
-> ![](img/WAF_IP.png)
+> ![](img/WAF-IP.png)
 
 ---
 
@@ -92,4 +92,3 @@ If Health Check is enabled, the health check result must be Normal, or the websi
 6. Click the **Inbound Rules** tab and then click **Add Rule**.
 7. In the **Add Inbound Rule** dialog box, configure the parameters as shown in **Table 3**, then click **OK**.
 
-> **Figure 8**: Add Inbound Rule
