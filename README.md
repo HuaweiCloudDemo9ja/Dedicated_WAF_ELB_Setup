@@ -24,7 +24,7 @@ N.B If you are using domain name, that means you must have created a DNS record 
 > ![](img/POC_Add_website_WAF.png)
 
  - **Protected Object** - Domain name or IP address of the website you want to protect.
-- **Protected Port** - The port used by the client to access the website server that should be protected.  
+- **Protected Port** - The port used by the client to access the website server should be protected.  
   To protect port 80 or 443, select **Standard port** from the drop-down list.  
   To protect other ports, choose one from the drop-down list. Click **View Ports You Can Use** to view the HTTP and HTTPS ports supported by WAF.  
   If a port other than 80 or 443 is configured, visitors need to add the non-standard port to the end of the website address when they access the website. Otherwise, a **404 error** will occur.
