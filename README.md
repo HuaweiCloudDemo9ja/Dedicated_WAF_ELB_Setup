@@ -2,7 +2,7 @@
 This is not a substitute for the official docs, the actual documentation can be found [here](https://support.huaweicloud.com/intl/en-us/usermanual-waf/waf_01_0250.html#section0)
 # Pointing Traffic to an ECS Hosting Your Website
 
-If your origin servers are deployed on **Huawei Cloud ECSs** and not behind any ELB, perform the following steps. 
+If your origin server is deployed on **Huawei Cloud ECSs** and not behind any ELB, perform the following steps. 
 
 ---
 YOU SHOULD HAVE SEPARATE SECURITY GROUPS FOR YOUR Dedicated WAF instances and ORIGIN SERVER:
