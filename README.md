@@ -1,4 +1,4 @@
-# Dedicated_WAF_ELB_Setup
+# Dedicated_WAF_Setup
 This is not a substitute for the official docs, the actual documentation can be found [here](https://support.huaweicloud.com/intl/en-us/usermanual-waf/waf_01_0250.html#section0)
 # Pointing Traffic to an ECS Hosting Your Website
 
